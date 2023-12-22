@@ -15,7 +15,6 @@ pre {
 
 .section0 {
   height: 100vh;
-  width: 100vw;
   background-image: url("./assets/designer_1.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -23,7 +22,6 @@ pre {
 .custom-section {
   padding: 0px 165px;
 }
-
 /* header css */
 .custom-navbar{
   display:flex;
@@ -160,13 +158,11 @@ pre {
 
 /* section2 */
 .section3 {
-  height: 938px;
-  width: 100vw;
+  min-height: 938px;
   background-image: url("./assets/Rectangle_crop.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%;
-  position: relative;
 }
 
 .price {
@@ -182,12 +178,9 @@ pre {
 .custom-container2 {
   max-width: 600px;
 }
-.section4 {
-  min-height: 216px;
+.section4{
   background-color: #e7ecff;
-  padding-bottom: 10px;
 }
-
 
 /* footer */
 .custom-list-navbar {
